@@ -2,17 +2,28 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62"/>
 </p>
 
-<p align='center'>
-  <a href="https://github.com/kyechan99/capsule-render/labels/Idea">
-    <img src="https://img.shields.io/badge/IDEA%20ISSUE%20-%23F7DF1E.svg?&style=for-the-badge&&logoColor=white"/>
-  </a>
+<p align="center">    
   <a href="#demo">
-    <img src="https://img.shields.io/badge/DEMO%20-%234FC08D.svg?&style=for-the-badge&&logoColor=white"/>
+    <img src="https://img.shields.io/badge/DEMO%20-%234FC08D.svg?&logoColor=white"/>
   </a>
   <a href="https://capsule-render.vercel.app/">
-    <img src="https://img.shields.io/badge/Generator%20-%235c86fa.svg?&style=for-the-badge&&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Generator%20-%235c86fa.svg?&logoColor=white"/>
   </a>
-</p> 
+  <br/>
+  <a href="https://github.com/kyechan99/capsule-render/graphs/contributors">
+    <img alt="GH Contributors" src="https://img.shields.io/github/contributors/kyechan99/capsule-render" />
+  </a>
+  <a href="https://codecov.io/gh/kyechan99/capsule-render">
+    <img alt="Codecov" src="https://codecov.io/gh/kyechan99/capsule-render/graph/badge.svg" />
+  </a>
+  <a href="https://github.com/kyechan99/capsule-render/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/kyechan99/capsule-render?color=779669" />
+  </a>
+  <a href="https://github.com/kyechan99/capsule-render/pulls">
+    <img alt="GH pull requests" src="https://img.shields.io/github/issues-pr/kyechan99/capsule-render?color=779669" />
+  </a>
+</p>
+
 <p align="center"> 
   <a href="README.md">English</a> 
   ·
@@ -23,7 +34,7 @@
   <a href="/docs/README_fr.md">Français</a>
   ·
   <a href="/docs/README_de.md">Deutsch</a>
-  ·
+  <br/>
   <a href="/docs/README_zh-cn.md">简体中文</a>  
   ·
   <a href="/docs/README_zh-tw.md">繁體中文</a>
@@ -39,10 +50,14 @@
 </p>
 <br/>
 
-> Looking for someone to translate this README.
-
+> [!TIP]
 > Supports simple [Generator](https://capsule-render.vercel.app/).
 > However, we recommend reading the README for more detailed adjustments.
+
+> [!IMPORTANT]
+> This service is provided on a best-effort basis and may be unstable due to usage limits or traffic spikes.
+>
+> For reliable use, please [fork](https://github.com/kyechan99/capsule-render/fork) the repository and deploy it to your own [Vercel instance](https://vercel.com/new) (or another hosting platform).
 
 ## Navigation
 
@@ -237,7 +252,7 @@ Write Something `&desc= `.
 >
 > It makes confused API
 
-> It is recommended to use `%20` (blank) only
+> It is recommended to use `%20` (blank) and `-nl-` (new line) only
 
 ## Text Background
 
@@ -397,54 +412,54 @@ Value must be greater than or equal to 0.
 
 ## Wave <a id="wave">
 
-![wave](https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&text=WAVE)
+[![wave](docs/samples/wave.svg)](https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&text=WAVE)
 
 ## Egg <a id="egg">
 
-![egg](https://capsule-render.vercel.app/api?type=egg&color=auto&height=210)
+[![egg](docs/samples/egg.svg)](https://capsule-render.vercel.app/api?type=egg&color=auto&height=210)
 
 ## Shark <a id="shark">
 
-![shark](https://capsule-render.vercel.app/api?type=shark&color=gradient&height=140)
+[![shark](docs/samples/shark.svg)](https://capsule-render.vercel.app/api?type=shark&color=gradient&height=140)
 
 ## Slice <a id="slice">
 
-![slice](https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&text=SLICE&fontAlign=70&rotate=13&fontAlignY=25&desc=desc%20function%20is%20also%20rotated.&descAlign=60&descAlignY=44)
+[![slice](docs/samples/slice.svg)](https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&text=SLICE&fontAlign=70&rotate=13&fontAlignY=25&desc=desc%20function%20is%20also%20rotated.&descAlign=60&descAlignY=44)
 
 ## Rect <a id="rect">
 
-![rect](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=%20%20RECT%20%20&fontAlign=30&fontSize=30&textBg=true&desc=Use%20%27textBg%27%20to%20highlight%20%27text%27&descAlign=60&descAlignY=50)
+[![rect](docs/samples/rect.svg)](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=%20%20RECT%20%20&fontAlign=30&fontSize=30&textBg=true&desc=Use%20%27textBg%27%20to%20highlight%20%27text%27&descAlign=60&descAlignY=50)
 
 ## Soft <a id="soft">
 
-![soft](https://capsule-render.vercel.app/api?type=soft&color=auto&text=Good%20to%20use%20with%20other%20readme&fontSize=40&animation=twinkling)
+[![soft](docs/samples/soft.svg)](https://capsule-render.vercel.app/api?type=soft&color=auto&text=Good%20to%20use%20with%20other%20readme&fontSize=40&animation=twinkling)
 
 ## Rounded <a id="rounded">
 
-![rounded](https://capsule-render.vercel.app/api?type=rounded&color=timeAuto&text=Rounded%20with%20stroke&fontAlignY=50&fontSize=40&height=200&stroke=000000&strokeWidth=2)
+[![rounded](docs/samples/rounded.svg)](https://capsule-render.vercel.app/api?type=rounded&color=timeAuto&text=Rounded%20with%20stroke&fontAlignY=50&fontSize=40&height=200&stroke=000000&strokeWidth=2)
 
 ## Cylinder <a id="cylinder">
 
-![cylinder](https://capsule-render.vercel.app/api?type=cylinder&color=auto&text=Cylinder&fontAlignY=45&fontSize=40&height=150&animation=blinking&desc=desc%20is%20also%20animated&descAlignY=70)
+[![cylinder](docs/samples/cylinder.svg)](https://capsule-render.vercel.app/api?type=cylinder&color=auto&text=Cylinder&fontAlignY=45&fontSize=40&height=150&animation=blinking&desc=desc%20is%20also%20animated&descAlignY=70)
 
 ## Waving <a id="waving">
 
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
+[![waving](docs/samples/waving.svg)](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
 
 ## Transparent <a id="transparent">
 
-![transparent](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&text=Transparent&height=150&fontSize=60&desc=Only%20Use%20Text&descAlignY=75&descAlign=60)
+[![transparent](docs/samples/transparent.svg)](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&text=Transparent&height=150&fontSize=60&desc=Only%20Use%20Text&descAlignY=75&descAlign=60)
 
 ## Venom <a id="venom">
 
-![venom](https://capsule-render.vercel.app/api?type=venom&height=200&text=I%20am%20Venom.&fontSize=70&color=0:8871e5,100:b678c4&stroke=b678c4)
+[![venom](docs/samples/venom.svg)](https://capsule-render.vercel.app/api?type=venom&height=200&text=I%20am%20Venom.&fontSize=70&color=0:8871e5,100:b678c4&stroke=b678c4)
 
 ## Speech <a id="speech">
 
-![speech](https://capsule-render.vercel.app/api?type=speech&height=200&fontSize=45&color=gradient&text=speech-nl-bubble&animation=blinking&fontAlign=30,60&fontAlignY=35,55)
+[![speech](docs/samples/speech.svg)](https://capsule-render.vercel.app/api?type=speech&height=200&fontSize=45&color=gradient&text=speech-nl-bubble&animation=blinking&fontAlign=30,60&fontAlignY=35,55)
 
 ## Blur <a id="blur">
 
-![blur](https://capsule-render.vercel.app/api?type=blur&height=300&color=gradient&text=Blur&strokeWidth=2&section=footer&reversal=true&fontAlign=50&stroke=E0E0E0&fontSize=55&textBg=false)
+[![blur](docs/samples/blur.svg)](https://capsule-render.vercel.app/api?type=blur&height=300&color=gradient&text=Blur&strokeWidth=2&section=footer&reversal=true&fontAlign=50&stroke=E0E0E0&fontSize=55&textBg=false)
 
 <hr/>
